@@ -13,16 +13,16 @@ This tag will not do binding (Ajax) or styling like the Adobe version.
 
 Place tooltip.cfc in your library/tag folder. You can do this at the server or context/site level. ('/lucee-server/context/library' for server, or '/WEB-INF/lucee/library' for a single site/context)
 
-##Usage
+## Usage
 
 You use this just like the regular CFTOOLTIP tag in Adobe ColdFusion (http://cfdocs.org/cftooltip).
 
-##Supported Attributes
+## Supported Attributes
 ```html
 tooltip:			{required:true,type:"string"}
 ```
 
-##Examples
+## Examples
 ```html
  <cftooltip 
   tooltip="Here is my tooltip."
